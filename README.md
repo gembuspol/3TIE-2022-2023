@@ -9,5 +9,6 @@ HTML 4 vs XHTML vs HTML 5
 deprecated
 javaScript
 CSS - Cascading Style Sheets
-<br>
+<br><br>
+<h1>Znaczniki</h1>
 < br > -znacznik nowej linii
