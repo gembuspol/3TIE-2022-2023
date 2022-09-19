@@ -1,5 +1,5 @@
 # 3TIE-2022-2023
-HTML - HyperText Markup Language - 
+HTML - HyperText Markup Language - <br>
 Hipertekst - 
 Markup - TAG - 
 Domena - 
