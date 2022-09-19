@@ -11,4 +11,4 @@ javaScript
 CSS - Cascading Style Sheets
 <br><br>
 <h1>Znaczniki</h1>
-<code><br></code> -znacznik nowej linii, przestarzałe < br />
+<code>< br ></code> -znacznik nowej linii, przestarzałe < br />
