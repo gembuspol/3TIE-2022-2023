@@ -20,3 +20,4 @@ CSS - Cascading Style Sheets
   <code>&lt;meta charset="UTF-8"&gt;</code> polskie znaki na stronie kodowanie UTF-8 lub iso-8859-2<br>
 <code>&lt;b&gt; i &lt;/b&gt;</code><b>pogrubienie</b><br>
 <code>&lt;i&gt; i &lt;/i&gt; </code><i>pochylenie</i><br>
+<code>&lt;i title="opis tekstu"&gt; i &lt;/i&gt; </code><i title="opis tekstu">pochylenie tekstu razem z opisem podczas najechania myszką</i><br>
