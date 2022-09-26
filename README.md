@@ -21,5 +21,5 @@ CSS - Cascading Style Sheets
 <code>&lt;b&gt; i &lt;/b&gt;</code><b>pogrubienie</b><br>
 <code>&lt;i&gt; i &lt;/i&gt; </code><i>pochylenie</i><br>
 <code>&lt;i title="opis tekstu"&gt; i &lt;/i&gt; </code><i title="opis tekstu">pochylenie tekstu razem z opisem podczas najechania myszką</i><br>
-pozycjonowanie stron - 
+pozycjonowanie stron - <br>
 <code>&lt;span title="opis tekstu"&gt; i &lt;/span&gt; </code><p> To jest paragraf.<span title="opis tekstu"> tekst razem z opisem podczas najechania myszką</span>. Koniec paragrafu</p><br>
