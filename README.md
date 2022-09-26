@@ -15,4 +15,5 @@ CSS - Cascading Style Sheets
 <code>< html > i < /html > </code> - początek i koniec dokumentu html <br>
 <code>< head > i < /head > </code> - początek i koniec nagłówka html <br>
 <code>< body > i < /body > </code> - początek i koniec ciała(zawartości) dokumentu html <br>
-<code>&lt; p &gt;</code>
+<code>&lt;p&gt;</code> - paragraf
+<code>&lt;html lang="pl"&gt;</code>
