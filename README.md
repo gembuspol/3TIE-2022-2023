@@ -17,5 +17,5 @@ CSS - Cascading Style Sheets
 <code>< body > i < /body > </code> - początek i koniec ciała(zawartości) dokumentu html <br>
 <code>&lt;p&gt;</code> - paragraf <br>
 <code>&lt;html lang="pl"&gt;</code><br>
-  <code>&lt;b&gt; i &lt;/b&gt;</code><b>pogrubienir</b><br>
+  <code>&lt;b&gt; i &lt;/b&gt;</code><b>pogrubienie</b><br>
   <code>&lt;i&gt; i &lt;/i&gt; </code><i>pochylenie</i><br>
