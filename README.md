@@ -38,3 +38,6 @@ pozycjonowanie stron - <br>
   <code>&lt;mark&gt; i &lt;/mark&gt;  </code> wyróżnienie tekstu, tak jak <mark>zakreślaczem</mark><br>
   <code>&lt;sup&gt; i &lt;/sup&gt;  </code> indeks górny 10<sup>23</sup><br>
     <code>&lt;sub&gt; i &lt;/sub&gt;  </code> indeks dolny H<sub>2</sub>O<br>
+    <code>&lt;s&gt; i &lt;/s&gt;  </code> przekreślenie tekstu <s>2000</s>ZOO<br>
+  <code>&lt;del&gt; i &lt;/del&gt;  </code> przekreślenie tekstu - zaznaczenie, że coś zostąlo usuniete ze strony <del>2000</del>ZOO<br>
+  <code>&lt;ins&gt; i &lt;/ins&gt;  </code> fragment został dodany do poprzedniego tekstu<ins>2000</nss>ZOO<br>
