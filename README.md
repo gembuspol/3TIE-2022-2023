@@ -31,6 +31,6 @@ pozycjonowanie stron - <br>
   <h6><code>&lt;h6&gt; i &lt;/h6&gt; </code>nagłówek 6 stopnia</h6><br>
   <code>&lt;body bgcolor="red"&gt;  </code><body bgcolor="red">kolor tła strony - w HTML5 nie używać</body><br>
 <code>& nbsp;</code> więcej niż jedna   &nbsp;&nbsp;&nbsp;&nbsp;     spacja<br>
-<code>&lt;hr&gt;  </code> linia horyzontalna<br><hr>
-  
+<code>&lt;hr&gt;  </code> linia horyzontalna<br><hr><br>
+  <code>&lt;strong&gt; i &lt;/strong&gt;  </code> <strong>pogrubiony tekst</strong> wygląda tak samo jak znacznik &lt;b&gt; ale nadaje wieksze znaczenie dla tekstu - ważne w przypadku pozycjonowania<br>  
   
