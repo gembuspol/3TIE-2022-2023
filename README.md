@@ -30,4 +30,4 @@ pozycjonowanie stron - <br>
  <h5> <code>&lt;h5&gt; i &lt;/h5&gt; </code>nagłówek 5 stopnia</h5><br>
   <h6><code>&lt;h6&gt; i &lt;/h6&gt; </code>nagłówek 6 stopnia</h6><br>
   <code>&lt;body bgcolor="red"&gt;  </code><body bgcolor="red">kolor tła strony - w HTML5 nie używać</body><br>
-<code>&nbsp ;</code> więcej niż jedna   &nbsp;&nbsp;&nbsp;&nbsp;     spacja
+<code>& nbsp;</code> więcej niż jedna   &nbsp;&nbsp;&nbsp;&nbsp;     spacja
