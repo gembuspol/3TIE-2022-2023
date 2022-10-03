@@ -33,4 +33,5 @@ pozycjonowanie stron - <br>
 <code>& nbsp;</code> więcej niż jedna   &nbsp;&nbsp;&nbsp;&nbsp;     spacja<br>
 <code>&lt;hr&gt;  </code> linia horyzontalna<br><hr><br>
   <code>&lt;strong&gt; i &lt;/strong&gt;  </code> <strong>pogrubiony tekst</strong> wygląda tak samo jak znacznik &lt;b&gt; ale nadaje wieksze znaczenie dla tekstu - ważne w przypadku pozycjonowania<br>  
-  
+  <code>&lt;em&gt; i &lt;/em&gt;  </code> <em>pochylony tekst</em> wygląda tak samo jak znacznik &lt;i&gt; ale nadaje wieksze znaczenie dla tekstu - ważne w przypadku pozycjonowania  (ang. emphasize – podkreślenie, uwypuklenie)<br>   
+  <code>&lt;small&gt; i &lt;/small&gt;  </code> Zmniejszenie tekstu <small> mniejszy tekst <small> jeszcze mniejszy tekst</small></small><br>
