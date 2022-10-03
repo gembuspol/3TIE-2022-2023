@@ -36,3 +36,5 @@ pozycjonowanie stron - <br>
   <code>&lt;em&gt; i &lt;/em&gt;  </code> <em>pochylony tekst</em> wygląda tak samo jak znacznik &lt;i&gt; ale nadaje wieksze znaczenie dla tekstu - ważne w przypadku pozycjonowania  (ang. emphasize – podkreślenie, uwypuklenie)<br>   
   <code>&lt;small&gt; i &lt;/small&gt;  </code> Zmniejszenie tekstu <small> mniejszy tekst <small> jeszcze mniejszy tekst</small></small><br>
   <code>&lt;mark&gt; i &lt;/mark&gt;  </code> wyróżnienie tekstu, tak jak <mark>zakreślaczem</mark><br>
+  <code>&lt;sup&gt; i &lt;/sup&gt;  </code> indeks górny 10<sup>23</sup><br>
+    <code>&lt;sub&gt; i &lt;/sub&gt;  </code> indeks dolny H<sub>2</sub>O<br>
