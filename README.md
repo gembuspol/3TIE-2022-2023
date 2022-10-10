@@ -41,3 +41,15 @@ pozycjonowanie stron - <br>
     <code>&lt;s&gt; i &lt;/s&gt;  </code> przekreślenie tekstu <s>2000</s>ZOO<br>
   <code>&lt;del&gt; i &lt;/del&gt;  </code> przekreślenie tekstu - zaznaczenie, że coś zostąlo usuniete ze strony <del>2000</del>ZOO<br>
   <code>&lt;ins&gt; i &lt;/ins&gt;  </code> fragment został dodany do poprzedniego tekstu<ins>2000</nss>ZOO<br>
+<hr>
+<h3>Listy</h3>
+<code>&lt;ol&gt; i &lt;/ol&gt;  </code> początek i koniec listy uporządkowanej<br>
+<code>&lt;ul&gt; i &lt;/ul&gt;  </code> początek i koniec listy nieuporządkowanej<br>
+<code>&lt;li&gt; i &lt;/li&gt;  </code> element listy<br>
+<h4>Przykłady</h4>
+<ol>
+  <li>Danila</li>
+  <li>Łukasz</li>
+  <li>Paweł</li>
+</ol>
+
