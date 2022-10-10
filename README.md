@@ -67,3 +67,6 @@ pozycjonowanie stron - <br>
    <dt>HTML</dl>
    <dd>Język hipertekstowy opisu stron internetowych</dd>
  </dl>
+<hr>
+  <h3>Linki HTML</h3>
+  <code>&lt;a&gt; i &lt;/a&gt;  </code> początek i koniec linka np. <a>LINK</a><br>
