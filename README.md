@@ -68,5 +68,6 @@ pozycjonowanie stron - <br>
    <dd>Język hipertekstowy opisu stron internetowych</dd>
  </dl>
 <hr>
-  <h3>Linki HTML</h3>
-  <code>&lt;a&gt; i &lt;/a&gt;  </code> początek i koniec linka np. <a>LINK</a><br>
+<h3>Linki HTML</h3>
+<code>&lt;a&gt; i &lt;/a&gt;  </code> początek i koniec linka np. <a>LINK</a><br>
+<code>&lt;a href=""&gt; i &lt;/a&gt;  </code> początek i koniec linka z przekierowaniem do innej lokalizacji np. <a href="onet.pl">LINK</a><br>
