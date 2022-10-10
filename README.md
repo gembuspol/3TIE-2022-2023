@@ -53,3 +53,17 @@ pozycjonowanie stron - <br>
   <li>Paweł</li>
 </ol>
 
+<ul>
+  <li>Danila</li>
+  <li>Łukasz</li>
+  <li>Paweł</li>
+</ul>
+  <h3> lista definicji</h3>
+<code>&lt;dl&gt; i &lt;/dl&gt;  </code> początek i koniec listy deficji<br>
+<code>&lt;dt&gt; i &lt;/dt&gt;  </code>definition term -  definicja<br> 
+<code>&lt;dd&gt; i &lt;/dd&gt;  </code>definition descryption -  opis pojęcia<br> 
+  <h4>Przykłady</h4>
+ <dl>
+   <dt>HTML</dl>
+   <dd>Język hipertekstowy opisu stron internetowych</dd>
+ </dl>
