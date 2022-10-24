@@ -79,9 +79,9 @@ pozycjonowanie stron - <br>
   <code>&lt;img src="" alt=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie wraz z tekstem alternatywnym - wyświetli się kiedy nie będzie dostępny obraz <br><img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-10283.jpg"  alt="obraz sie nie załadował"> <br>
  <code>&lt;img src="" title=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie wraz z tekstem, który pojawia się po najechaniu kursorem <br><img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"  title="tekst wyswietlajacy sie po najechaniu kursorem"> <br>
    <code><pre>&lt;figure&gt;<br>
- &lt;img src=""&gt; /n
-  &lt;figcaption&gt; Podpis obrazu&lt;/figcaption&gt; <br>
-  &lt;/figure&gt;</pre></code>  - wyświetlanie podpisu pod obrazem <br>
+ &lt;img src=""&gt;
+ &lt;figcaption&gt; Podpis obrazu&lt;/figcaption&gt;
+&lt;/figure&gt;</pre></code>  - wyświetlanie podpisu pod obrazem <br>
   <figure>
     <img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"  title="tekst wyswietlajacy sie po najechaniu kursorem">
     <figcaption>Podpis obrazu</figcaption>
