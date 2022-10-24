@@ -86,3 +86,5 @@ pozycjonowanie stron - <br>
     <img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"  title="tekst wyswietlajacy sie po najechaniu kursorem">
     <figcaption>Podpis obrazu</figcaption>
     </figure>
+  
+  <p>Co to jest JPG i jakie ma cechy - zadanie domowe</p>
