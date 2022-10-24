@@ -77,3 +77,12 @@ pozycjonowanie stron - <br>
 <code>&lt;img src=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie <img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"> <br>
 <code>&lt;img src="" width="" height=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie wraz z podaniem wymiarów grafiki - grafika zostanie zeskalowana, nie zostanie oryginał zmniejszony<br> <img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"   width="100" height="100"> <br>
   <code>&lt;img src="" alt=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie wraz z tekstem alternatywnym - wyświetli się kiedy nie będzie dostępny obraz <br><img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-10283.jpg"  alt="obraz sie nie załadował"> <br>
+ <code>&lt;img src="" title=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie wraz z tekstem, który pojawia się po najechaniu kursorem <br><img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"  title="tekst wyswietlajacy sie po najechaniu kursorem"> <br>
+   <code>&lt;figure&gt;<br>
+ &lt;img src=""&gt; <br>
+  &lt;figcaption&gt; Podpis obrazu&lt;/figcaption&gt; <br>
+  &lt;/figure&gt;</code>  - wyświetlanie podpisu pod obrazem <br>
+  <figure>
+    <img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"  title="tekst wyswietlajacy sie po najechaniu kursorem">
+    <figcaption>Podpis obrazu</figcaption>
+    </figure>
