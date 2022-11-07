@@ -90,3 +90,12 @@ pozycjonowanie stron - <br>
   <p>Co to jest JPG i jakie ma cechy - zadanie domowe</p>
 
 <code>&lt;table&gt; i &lt;/table&gt;  </code> początek i koniec tabeli<br>
+<code>&lt;tr&gt; i &lt;/tr&gt;  </code> początek i koniec wiersza tabeli<br>
+<code>&lt;td&gt; i &lt;/td&gt;  </code> początek i koniec komórki tabeli<br>
+  <table>
+    <tr>
+      <td>komórka</td>
+      <td>komórka 2</td>
+    </tr>
+  </table>
+  
