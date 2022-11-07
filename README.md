@@ -103,18 +103,29 @@ pozycjonowanie stron - <br>
     </tr>
   </table>
   <br>
-  <code>&lt;th&gt; i &lt;/th&gt;  </code> początek i koniec nagłówka wiersza/kolumny tabeli<br>
+  <code>&lt;th&gt; i &lt;/th&gt;  </code> początek i koniec nagłówka wiersza/kolumny tabeli. Można dodać atrybut "scope" informujący czy nagłówek dotyczyny wiersza (row) czy też kolumny (col) <br>
   <table>
     <tr>
-      <th>Nagłówek</th>
-      <th>Nagłówek 2</th>
+      <th scope="col">Nagłówek</th>
+      <th scope="col">Nagłówek 2</th>
     </tr>
     <tr>
-      <th>Nagłówek</th>
+      <th scope="row">Nagłówek</th>
       <td>Tekst</td>
     </tr>
     <tr>      
-      <th>Nagłówek</th>
+      <th scope="row">Nagłówek</th>
+      <td>komórka 4</td>
+    </tr>
+  </table>
+  <br>
+  <code>&lt;td colspan=""&gt; i &lt;/td&gt;  </code> początek i koniec komórki tabeli, która jest połączona według kolumny<br>
+  <table>
+    <tr>
+      <td colspan="2"> połączone dwie komórki</td>
+    </tr>
+    <tr>
+      <td>komórka3</td>
       <td>komórka 4</td>
     </tr>
   </table>
