@@ -144,3 +144,6 @@ pozycjonowanie stron - <br>
     </tr>
   </table>
   <br>
+  <code>&lt;thead&gt; i &lt;/thead&gt;  </code> początek i koniec sekcji nagłówka tabeli<br>
+  <code>&lt;tbody&gt; i &lt;/tbody&gt;  </code> początek i koniec sekcji głównej tabeli<br>
+  <code>&lt;tfoot&gt; i &lt;/tfoot&gt;  </code> początek i koniec sekcji stopki tabeli<br>
