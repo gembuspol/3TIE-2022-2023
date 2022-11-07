@@ -97,5 +97,25 @@ pozycjonowanie stron - <br>
       <td>komórka</td>
       <td>komórka 2</td>
     </tr>
+    <tr>
+      <td>komórka3</td>
+      <td>komórka 4</td>
+    </tr>
   </table>
-  
+  <br>
+  <code>&lt;th&gt; i &lt;/th&gt;  </code> początek i koniec nagłówka wiersza/kolumny tabeli<br>
+  <table>
+    <tr>
+      <th>Nagłówek</th>
+      <th>Nagłówek 2</th>
+    </tr>
+    <tr>
+      <th>Nagłówek</th>
+      <td>Tekst</td>
+    </tr>
+    <tr>      
+      <th>Nagłówek</th>
+      <td>komórka 4</td>
+    </tr>
+  </table>
+  <br>
