@@ -130,3 +130,17 @@ pozycjonowanie stron - <br>
     </tr>
   </table>
   <br>
+<code>&lt;td rowspan=""&gt; i &lt;/td&gt;  </code> początek i koniec komórki tabeli, która jest połączona po wierszach<br>
+  <table>
+    <tr>
+      <td>komórka</td>
+      <td rowspan="3">komórka 2</td>
+    </tr>
+    <tr>
+      <td>komórka3</td>
+    </tr>
+    <tr>
+      <td>komórka 4</td>
+    </tr>
+  </table>
+  <br>
