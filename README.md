@@ -88,3 +88,5 @@ pozycjonowanie stron - <br>
     </figure>
   
   <p>Co to jest JPG i jakie ma cechy - zadanie domowe</p>
+
+code>&lt;table&gt; i &lt;/table&gt;  </code> początek i koniec tabeli<br>
