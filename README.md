@@ -149,4 +149,4 @@ pozycjonowanie stron - <br>
   <code>&lt;tfoot&gt; i &lt;/tfoot&gt;  </code> początek i koniec sekcji stopki tabeli<br>
   
   <h2>Elemeny blokowe i liniowe</h2>
-![obraz](https://user-images.githubusercontent.com/85030649/201650355-845debc9-bf3a-4280-a055-5a0a3fc6ccfb.png)
+<![obraz](https://user-images.githubusercontent.com/85030649/201650355-845debc9-bf3a-4280-a055-5a0a3fc6ccfb.png)
