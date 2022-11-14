@@ -147,3 +147,5 @@ pozycjonowanie stron - <br>
   <code>&lt;thead&gt; i &lt;/thead&gt;  </code> początek i koniec sekcji nagłówka tabeli<br>
   <code>&lt;tbody&gt; i &lt;/tbody&gt;  </code> początek i koniec sekcji głównej tabeli<br>
   <code>&lt;tfoot&gt; i &lt;/tfoot&gt;  </code> początek i koniec sekcji stopki tabeli<br>
+  
+![obraz](https://user-images.githubusercontent.com/85030649/201650355-845debc9-bf3a-4280-a055-5a0a3fc6ccfb.png)
