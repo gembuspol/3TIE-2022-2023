@@ -182,5 +182,15 @@ pozycjonowanie stron - <br>
   <code>&lt;input&gt;  </code> element pozwalający na wprowadzenie danych wejściowych przez użytkownika. Element samozamykający, nie ma znacznika końcowego. <input><br>
   <h4>Typy znacznika input</h4>
   <ol>
-    <li> <code>&lt;input type="text"&gt;  </code> pole tekstowe <input type="text"</li>
+    <li> <code>&lt;input type="text"&gt;  </code> pole tekstowe <input type="text"></li>
+    <li> <code>&lt;input type="number"&gt;  </code> pole do wprowadzia liczby<input type="number"></li>
+    <li> <code>&lt;input type="password"&gt;  </code> pole do wprowadzania hasła <input type="password"></li>
+    <li> <code>&lt;input type="button"&gt;  </code> przycisk do wykonania formularza <input type="button"></li>
+    <li> <code>&lt;input type="date"&gt;  </code> pole daty <input type="date"></li>
+    <li> <code>&lt;input type="color"&gt;  </code> pole do wyboru koloru <input type="color"></li>
+    <li> <code>&lt;input type="FileUpload"&gt;  </code> pole załadaowania pliku <input type="FileUpload"></li>
   </ol>
+<code>&lt;input value=""&gt;  </code> element pozwalający na wprowadzenie danych wejściowych z określoną watościa domyślną <input><br>
+ <code>&lt;input disabled&gt;  </code> element pozwalający do wprowadzania danych jest niedostępny/wyłączony <input><br>
+  <code>&lt;label&gt; i &lt;/label&gt;  </code> etykieta, którą użytkownik nie moze edytować, zazwyczaj informacja co mamy wprowadzić do formularza <label>Cena<input type="number"></label><br>
+    <code>&lt;input type="text" placeholder="imie i nazwisko"&gt; i &lt;/label&gt;  </code> placeholder to jest tekst wypełniający input, tekst zniknie w momencie kliknięcia w input <input type="text" placeholder="imie i nazwisko"><br>
