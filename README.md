@@ -147,3 +147,50 @@ pozycjonowanie stron - <br>
   <code>&lt;thead&gt; i &lt;/thead&gt;  </code> początek i koniec sekcji nagłówka tabeli<br>
   <code>&lt;tbody&gt; i &lt;/tbody&gt;  </code> początek i koniec sekcji głównej tabeli<br>
   <code>&lt;tfoot&gt; i &lt;/tfoot&gt;  </code> początek i koniec sekcji stopki tabeli<br>
+  
+  <h2>Elemeny blokowe i liniowe</h2>
+  
+![obraz](https://user-images.githubusercontent.com/85030649/201650854-f000c16b-8f89-4eac-a01a-39a83cc729f1.png)
+  
+  Linia 1 i 3 prezentuje elementy blokowe takie znaczniki jak np. h1, ol, ul, dl, p
+  Linia 2 i 4 prezentuje elementy liniowe - znaczniki takie jak np. a, b, strong, i, img
+  
+  <h2> Identyfikatory </h2>
+  <code> id="jakieś-id"</code> - atrybut znacznika, który pozwala odróżnić elementy html i odnosić się do konkretnych elementów, mogą być wykorzystane jako wewnętrzny odnościk do miejsca na stronie (w a href="#jakieś-id"). Atrybut "id" o tej samej nazwie nie powinien się powtarzać na stronie. <br)
+  <code> class="nazwa-klasy" </code> - selektor klasy, podobne do id. Można nimi rozróżniać poszczególne elementy html. Stosuje się głównie gdy chcemy aby nadać taki sam wygląd dla grupy elementów html, rzadziej odnosimy się za ich pomocą do konkretnego miejsca na stronie. Atrybut "clasa" może powtarzać się w dokumencie html<br>
+  <h3>Identyfikatory w CSS</h3>
+  <code>#nazwa</code> - odniesinie się do selektora id w pliku css<br>
+  <code>.nazwa</code> - odniesinie się do selektora class w pliku css<br>
+  
+  <h2>Sekcje</h2>
+   <code>&lt;div&gt; i &lt;/div&gt;  </code> element blokowy strony, nazywany również box'em albo kontenerem. Wewnątrz tego elementu dodajemy wszystkie znaczniku potrzebne w tej sekcji. Można stosować z identyfikatoramy id lub class. <br>
+   <code>&lt;header&gt; i &lt;/header&gt;  </code> początek i koniec sekcji nagłówka strony (góra strony). Tutaj umieszczamy zazwyczaj logo strony i menu główne<br>
+  
+  <code>&lt;footer&gt; i &lt;/footer&gt;  </code> początek i koniec sekcji stopki strony (dół strony). Tutaj umieszczamy zazwyczaj prawa autorskie, dane kontaktowe<br>
+  
+  <code>&lt;main&gt; i &lt;/main&gt;  </code> początek i koniec sekcji głównej (uniwersalnej) strony (środek strony). Tutaj umieszczamy zazwyczaj treść strony<br>
+  
+  <code>&lt;nav&gt; i &lt;/nav&gt;  </code> początek i koniec sekcji nawigacji głównej strony. Tutaj umieszczamy zazwyczaj linki do innych podstron na stronie <br>
+  
+  <code>&lt;aside&gt; i &lt;/aside&gt;  </code> początek i koniec sekcji bocznej strony. Tutaj umieszczamy zazwyczaj elementy nie związane z główną treścią strony, zazwyczaj boczne menu<br>
+  
+<code>&lt;article&gt; i &lt;/article&gt;  </code> początek i koniec sekcji artykułu/ wpisu strony. Tutaj umieszczamy zazwyczaj tekst z bloga<br>
+  
+  <code>&lt;section&gt; i &lt;/section&gt;  </code> początek i koniec sekcji ogólnej, bez specjalnego przeznaczenia. Tutaj umieszczamy dowolne teksty i elementy strony<br>
+  <hr>
+  <h2>Formularze</h2>
+  <code>&lt;input&gt;  </code> element pozwalający na wprowadzenie danych wejściowych przez użytkownika. Element samozamykający, nie ma znacznika końcowego. <input><br>
+  <h4>Typy znacznika input</h4>
+  <ol>
+    <li> <code>&lt;input type="text"&gt;  </code> pole tekstowe <input type="text"></li>
+    <li> <code>&lt;input type="number"&gt;  </code> pole do wprowadzia liczby<input type="number"></li>
+    <li> <code>&lt;input type="password"&gt;  </code> pole do wprowadzania hasła <input type="password"></li>
+    <li> <code>&lt;input type="button"&gt;  </code> przycisk do wykonania formularza <input type="button"></li>
+    <li> <code>&lt;input type="date"&gt;  </code> pole daty <input type="date"></li>
+    <li> <code>&lt;input type="color"&gt;  </code> pole do wyboru koloru <input type="color"></li>
+    <li> <code>&lt;input type="FileUpload"&gt;  </code> pole załadaowania pliku <input type="FileUpload"></li>
+  </ol>
+<code>&lt;input value=""&gt;  </code> element pozwalający na wprowadzenie danych wejściowych z określoną watościa domyślną <input><br>
+ <code>&lt;input disabled&gt;  </code> element pozwalający do wprowadzania danych jest niedostępny/wyłączony <input><br>
+  <code>&lt;label&gt; i &lt;/label&gt;  </code> etykieta, którą użytkownik nie moze edytować, zazwyczaj informacja co mamy wprowadzić do formularza <label>Cena<input type="number"></label><br>
+    <code>&lt;input type="text" placeholder="imie i nazwisko"&gt; i &lt;/label&gt;  </code> placeholder to jest tekst wypełniający input, tekst zniknie w momencie kliknięcia w input <input type="text" placeholder="imie i nazwisko"><br>
