@@ -194,3 +194,10 @@ pozycjonowanie stron - <br>
  <code>&lt;input disabled&gt;  </code> element pozwalający do wprowadzania danych jest niedostępny/wyłączony <input><br>
   <code>&lt;label&gt; i &lt;/label&gt;  </code> etykieta, którą użytkownik nie moze edytować, zazwyczaj informacja co mamy wprowadzić do formularza <label>Cena<input type="number"></label><br>
     <code>&lt;input type="text" placeholder="imie i nazwisko"&gt; i &lt;/label&gt;  </code> placeholder to jest tekst wypełniający input, tekst zniknie w momencie kliknięcia w input <input type="text" placeholder="imie i nazwisko"><br>
+    <code>&lt;input type="radio" &gt; </code> pole wyboru, w jednej grupie możemy wybrać tylko jedną opcję 
+    <br>
+    <input type="radio" name="opcja" value="wybor1">Wybór 1<br>
+    <input type="radio" name="opcja" value="wybor1">Wybór 2<br>
+    <input type="radio" name="opcja" value="wybor1">Wybór 3<br>
+    Atrybut name pozwala nam określić, że dane pole radio jest w tej samej grupie, atrybut value określa wartość dla wybranej opcj<br>
+    
