@@ -207,3 +207,19 @@ pozycjonowanie stron - <br>
     <input type="checkbox" value="wybor3">Wybór 3<br>
     Pole checkbox pozwala użytkownikowi na zaznaczenie dowolnej ilości pól checkbox<br>
 <code>&lt;textearea cols="50" &gt; i &lt;/textearea &gt; </code> pozwala wprowadzać dłuższy tekst w kilku linijkach, za pomocą parametru cols możemy okreslić ilość linii <textarea cols="50"></textarea><br>    
+<code>&lt;select &gt; i &lt;/select &gt; </code> rozwijana lista w której definiujemy kolejne elementy, atrybut multiple określa listę wybieraną w któej możemy zaznaczyć więcej opcji<br>  
+  <code>&lt;option &gt; i &lt;/option &gt; </code> deklaracja elementów listy rozwijanej, atrybut selected określa, który element ma być zaznaczony<br>
+  Przykład 
+  <select>
+    <option>Tomek</option>
+    <option>Łukasz</option>
+    <option>Danila</option>
+    <option>Sebastian</option>
+    <option>Bartek</option>
+        <option>Kamil</option>
+  </select>
+  <code>&lt;form &gt; i &lt;/form &gt; </code> deklaracja początku i końca formularza<br>
+  <code>&lt;input type="submit"&gt;  </code> przycis, który powoduje przesłanie/wykonanie formularza, parametr value określa tekst który ma się pojawi na przycisku <input type="submit"></li>
+  Metody przesyłania formularza:
+   <code>&lt;form method="GET" &gt; i &lt;/form &gt; </code> przesyłanie formularza za pomocą jawnego tekstu<br>
+  <code>&lt;form method="POST" &gt; i &lt;/form &gt; </code> przesyłanie formularza za pomocą ukretego tekstu<br>
