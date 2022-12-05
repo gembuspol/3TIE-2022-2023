@@ -220,6 +220,6 @@ pozycjonowanie stron - <br>
   </select>
   <code>&lt;form &gt; i &lt;/form &gt; </code> deklaracja początku i końca formularza<br>
   <code>&lt;input type="submit"&gt;  </code> przycis, który powoduje przesłanie/wykonanie formularza, parametr value określa tekst który ma się pojawi na przycisku <input type="submit"></li>
-  Metody przesyłania formularza:
+  Metody przesyłania formularza:<br>
    <code>&lt;form method="GET" &gt; i &lt;/form &gt; </code> przesyłanie formularza za pomocą jawnego tekstu<br>
   <code>&lt;form method="POST" &gt; i &lt;/form &gt; </code> przesyłanie formularza za pomocą ukretego tekstu<br>
