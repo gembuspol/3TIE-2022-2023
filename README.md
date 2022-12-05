@@ -197,7 +197,13 @@ pozycjonowanie stron - <br>
     <code>&lt;input type="radio" &gt; </code> pole wyboru, w jednej grupie możemy wybrać tylko jedną opcję 
     <br>
     <input type="radio" name="opcja" value="wybor1">Wybór 1<br>
-    <input type="radio" name="opcja" value="wybor1">Wybór 2<br>
-    <input type="radio" name="opcja" value="wybor1">Wybór 3<br>
+    <input type="radio" name="opcja" value="wybor2">Wybór 2<br>
+    <input type="radio" name="opcja" value="wybor3">Wybór 3<br>
     Atrybut name pozwala nam określić, że dane pole radio jest w tej samej grupie, atrybut value określa wartość dla wybranej opcj<br>
-    
+  <code>&lt;input type="checkbox" &gt; </code> pole potwierdzenia, stosujemy w przypadku np. zgody marketingowej 
+    <br>
+    <input type="checkbox" value="wybor1">Wybór 1<br>
+    <input type="checkbox" value="wybor2">Wybór 2<br>
+    <input type="checkbox" value="wybor3">Wybór 3<br>
+    Pole checkbox pozwala użytkownikowi na zaznaczenie dowolnej ilości pól checkbox<br>
+<code>&lt;textearea cols="50" &gt; i &lt;/textearea &gt; </code> pozwala wprowadzać dłuższy tekst w kilku linijkach, za pomocą parametru cols możemy okreslić ilość linii <textarea cols="50"></textarea><br>    
