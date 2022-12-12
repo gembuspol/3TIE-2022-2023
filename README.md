@@ -73,7 +73,7 @@ pozycjonowanie stron - <br>
 <code>&lt;a href=""&gt; i &lt;/a&gt;  </code> początek i koniec linka z przekierowaniem do innej lokalizacji np. <a href="https://onet.pl">LINK</a><br>
 <code>&lt;a target=""&gt; i &lt;/a&gt;  </code> początek i koniec linka z określeniem w jakim miejscu ma zostać otwarty link np. <a href="https://onet.pl" target="_blank">LINK</a><br>
 <hr>
-<h3>Grafika na stronie<h3>
+<h3>Grafika na stronie</h3>
 <code>&lt;img src=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie <img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"> <br>
 <code>&lt;img src="" width="" height=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie wraz z podaniem wymiarów grafiki - grafika zostanie zeskalowana, nie zostanie oryginał zmniejszony<br> <img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"   width="100" height="100"> <br>
   <code>&lt;img src="" alt=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie wraz z tekstem alternatywnym - wyświetli się kiedy nie będzie dostępny obraz <br><img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-10283.jpg"  alt="obraz sie nie załadował"> <br>
