@@ -225,3 +225,27 @@ pozycjonowanie stron - <br>
    <code>&lt;form method="GET" &gt; i &lt;/form &gt; </code> przesyłanie formularza za pomocą jawnego tekstu<br>
   <code>&lt;form method="POST" &gt; i &lt;/form &gt; </code> przesyłanie formularza za pomocą ukretego tekstu<br>
    <code>&lt;form action="plik.php" &gt; i &lt;/form &gt; </code> parametr action powoduje przesłanie danych z formularza do pliku podanego jako wartość parametru "action"<br>
+  
+  <h1>CSS - Cascading Style Sheets - Kaskadowe arkusze stylów </h1>
+  
+  <p> Reguły CSS to inaczej zbiory zasad służace do formatowania treści (wyglądu strony). Zbudowane są z własności oraz jej wartości.<br>
+    własność: wartość; <br>
+    background-color: blue;  </p>
+  <p> Dodawać elementy CSS możemy na trzy sposoby: 
+    <ul>
+      <li> w pliku html, wewnątrz znacznika, wpisując atrybut style="" <br>
+        <code>&lt;p style="background-color: blue"&gt; </ code></li>
+      <li> w pliku html, za pomocą znacznika &lt;style&gt; <br>
+        <code>&lt;style &gt; p {background-color: blue} i &lt;/style&gt; </ code></li>
+      <li> w oddzielnym pliku, najczęściej rozszerzenie css, na stronie html umieszczamy link do pliku w sekcji head <br>
+        <code>&lt;link rel="stylesheet" href="adresPliku.css"&gt; </ code>
+        <br>
+        W pliku css struktura wygląda następująco <br>
+        <code>
+        p { <br>
+          font: 28px Arial;<br>
+          background-color: yellow;<br>
+          }
+        </code>
+  </ul>
+  
