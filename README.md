@@ -234,11 +234,11 @@ pozycjonowanie stron - <br>
   <p> Dodawać elementy CSS możemy na trzy sposoby: 
     <ul>
       <li> w pliku html, wewnątrz znacznika, wpisując atrybut style="" <br>
-        <code>&lt;p style="background-color: blue"&gt; </ code></li>
+        <code>&lt;p style="background-color: blue"&gt; </code></li>
       <li> w pliku html, za pomocą znacznika &lt;style&gt; <br>
-        <code>&lt;style &gt; p {background-color: blue} i &lt;/style&gt; </ code></li>
+        <code>&lt;style &gt; p {background-color: blue} i &lt;/style&gt; </code></li>
       <li> w oddzielnym pliku, najczęściej rozszerzenie css, na stronie html umieszczamy link do pliku w sekcji head <br>
-        <code>&lt;link rel="stylesheet" href="adresPliku.css"&gt; </ code>
+        <code>&lt;link rel="stylesheet" href="adresPliku.css"&gt; </code>
         <br>
         W pliku css struktura wygląda następująco <br>
         <code>
