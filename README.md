@@ -73,7 +73,7 @@ pozycjonowanie stron - <br>
 <code>&lt;a href=""&gt; i &lt;/a&gt;  </code> początek i koniec linka z przekierowaniem do innej lokalizacji np. <a href="https://onet.pl">LINK</a><br>
 <code>&lt;a target=""&gt; i &lt;/a&gt;  </code> początek i koniec linka z określeniem w jakim miejscu ma zostać otwarty link np. <a href="https://onet.pl" target="_blank">LINK</a><br>
 <hr>
-<h3>Grafika na stronie<h3>
+<h3>Grafika na stronie</h3>
 <code>&lt;img src=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie <img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"> <br>
 <code>&lt;img src="" width="" height=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie wraz z podaniem wymiarów grafiki - grafika zostanie zeskalowana, nie zostanie oryginał zmniejszony<br> <img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-1024x683.jpg"   width="100" height="100"> <br>
   <code>&lt;img src="" alt=""&gt;  </code>  - wyświetlanie obrazu(grafiki) na stronie wraz z tekstem alternatywnym - wyświetli się kiedy nie będzie dostępny obraz <br><img src="https://waskiel.pl/wp-content/uploads/2017/09/jak-zrobic-dobre-zdjecie-z-wykorzystaniem-warunkow-atmosferycznych-10283.jpg"  alt="obraz sie nie załadował"> <br>
@@ -156,7 +156,7 @@ pozycjonowanie stron - <br>
   Linia 2 i 4 prezentuje elementy liniowe - znaczniki takie jak np. a, b, strong, i, img
   
   <h2> Identyfikatory </h2>
-  <code> id="jakieś-id"</code> - atrybut znacznika, który pozwala odróżnić elementy html i odnosić się do konkretnych elementów, mogą być wykorzystane jako wewnętrzny odnościk do miejsca na stronie (w a href="#jakieś-id"). Atrybut "id" o tej samej nazwie nie powinien się powtarzać na stronie. <br)
+  <code> id="jakieś-id"</code> - atrybut znacznika, który pozwala odróżnić elementy html i odnosić się do konkretnych elementów, mogą być wykorzystane jako wewnętrzny odnościk do miejsca na stronie (w a href="#jakieś-id"). Atrybut "id" o tej samej nazwie nie powinien się powtarzać na stronie. <br>
   <code> class="nazwa-klasy" </code> - selektor klasy, podobne do id. Można nimi rozróżniać poszczególne elementy html. Stosuje się głównie gdy chcemy aby nadać taki sam wygląd dla grupy elementów html, rzadziej odnosimy się za ich pomocą do konkretnego miejsca na stronie. Atrybut "clasa" może powtarzać się w dokumencie html<br>
   <h3>Identyfikatory w CSS</h3>
   <code>#nazwa</code> - odniesinie się do selektora id w pliku css<br>
@@ -218,8 +218,34 @@ pozycjonowanie stron - <br>
     <option>Bartek</option>
         <option>Kamil</option>
   </select>
+  <br>
   <code>&lt;form &gt; i &lt;/form &gt; </code> deklaracja początku i końca formularza<br>
   <code>&lt;input type="submit"&gt;  </code> przycis, który powoduje przesłanie/wykonanie formularza, parametr value określa tekst który ma się pojawi na przycisku <input type="submit"></li>
   Metody przesyłania formularza:<br>
    <code>&lt;form method="GET" &gt; i &lt;/form &gt; </code> przesyłanie formularza za pomocą jawnego tekstu<br>
   <code>&lt;form method="POST" &gt; i &lt;/form &gt; </code> przesyłanie formularza za pomocą ukretego tekstu<br>
+   <code>&lt;form action="plik.php" &gt; i &lt;/form &gt; </code> parametr action powoduje przesłanie danych z formularza do pliku podanego jako wartość parametru "action"<br>
+  
+  <h1>CSS - Cascading Style Sheets - Kaskadowe arkusze stylów </h1>
+  
+  <p> Reguły CSS to inaczej zbiory zasad służace do formatowania treści (wyglądu strony). Zbudowane są z własności oraz jej wartości.<br>
+    własność: wartość; <br>
+    background-color: blue;  </p>
+  <p> Dodawać elementy CSS możemy na trzy sposoby: 
+    <ul>
+      <li> w pliku html, wewnątrz znacznika, wpisując atrybut style="" <br>
+        <code>&lt;p style="background-color: blue"&gt; </code></li>
+      <li> w pliku html, za pomocą znacznika &lt;style&gt; <br>
+        <code>&lt;style &gt; p {background-color: blue} i &lt;/style&gt; </code></li>
+      <li> w oddzielnym pliku, najczęściej rozszerzenie css, na stronie html umieszczamy link do pliku w sekcji head <br>
+        <code>&lt;link rel="stylesheet" href="adresPliku.css"&gt; </code>
+        <br>
+        W pliku css struktura wygląda następująco <br>
+        <code>
+        p { <br>
+          font: 28px Arial;<br>
+          background-color: yellow;<br>
+          }
+        </code>
+  </ul>
+  
