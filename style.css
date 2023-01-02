@@ -1,0 +1,33 @@
+div {
+    background-color: aqua;
+    width: 50%;
+}
+.pierwszy {
+    background-color: chocolate;
+}
+.drugi {
+    background-color:darkgreen;
+    margin: 0px;
+    padding: 0px;
+}
+.drugi1 {
+    width:100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding: 20px;
+    border: 2px solid red;
+}
+.drugi2 {
+    width:100%;
+    height: 200px;
+    margin: 10px 20px 30px 40px; /* top, right, bottom, left */
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-width: 5px;
+    border-style: double;
+    border-color:deeppink;
+    border-top:8px dotted red;
+}
